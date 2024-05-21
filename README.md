@@ -1,3 +1,17 @@
+# SAGA
+
+This is a PyTorch implementation for the paper: [State-Conditioned Adversarial Subgoal Generation](https://ojs.aaai.org/index.php/AAAI/article/view/26213) (AAAI 2023).
+
+## Installation
+```
+conda create -n saga python=3.6
+conda activate saga
+./install_all.sh
+```
+
+
+## Usage
+### Training
 - Point Maze
 ```
 ./scripts/saga_point_maze.sh ${reward_shaping} ${timesteps} ${gpu} ${seed}
